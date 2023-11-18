@@ -1,8 +1,4 @@
 
-<h1 align="center">
-  <br>
-  <br>
-</h1>
 
 <h4 align="center">A blockchain-based Electrical Medical Records (EMR) system.</h4>
 
