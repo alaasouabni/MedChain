@@ -1,7 +1,6 @@
 
 <h1 align="center">
   <br>
-  <a href="http://www.amitmerchant.com/electron-markdownify"><img src="https://github.com/JeffreytheCoder/med-chain/blob/master/client/src/assets/tealNoBG-cropped.png?raw=true" alt="Markdownify" width="300"></a>
   <br>
 </h1>
 
@@ -11,7 +10,6 @@
   <a href="#key-features">Key Features</a> •
   <a href="#how-it-works">How It Works</a> •
   <a href="#how-to-use">How To Use</a> •
-  <a href="#support">Support</a>
 </p>
 
 ## Key Features
@@ -24,8 +22,6 @@ On MedChain,
 - The healthcare provider can register a patient by using the public address of the patient’s wallet, usually provided during an appointment.
 - The health provider can search for a patient’s records using the address, and upload a new record for the patient. 
 - The patient can also view his or her records, after connected with a wallet which address is registered by the health provider.
-
-This project is the 3rd place winner of [NextStep Hacks 2022](https://devpost.com/software/medchain-k4wzry).
 
 ## How It Works
 
@@ -45,11 +41,14 @@ The client can upload a record file to IPFS, which address is linked to a patien
 
 ## How To Use
 
+Make sure to use Node 16.X. You can follow this tutorial to install Node 16: [nvm](https://heynode.com/tutorial/install-nodejs-locally-nvm/).
+
 Install Truffle globally if you haven't.
 
 ```sh
 $ npm install -g truffle
 ```
+Install Ganache and start a local ethereum workspace using the QUICKSTART ETHEREUM button in the Ganache Program Interface. You can follow this tutorial: [Ganache](https://trufflesuite.com/docs/ganache/quickstart/).
 
 Install Truffle dependencies and deploy smart contracts to local Ethereum network like [Ganache](https://trufflesuite.com/ganache/). 
 
@@ -64,20 +63,12 @@ Install React dependencies and start React app.
 
 ```sh
 $ cd ../client
-$ npm install
-$ npm start
+$ yarn
+$ yarn start
 ```
 
 You should be able to see the application running at http://localhost:3000.
 
+You should now configure metamask to connect to the local Ganache node following this tutorial: [MetaMask](https://www.geeksforgeeks.org/how-to-set-up-ganche-with-metamask/).
 
-## Support
-
-If you like this project, please leave a star ⭐️. This helps more people to know this project.
-
----
-
-> [jeffreyyu.dev](https://jeffreyyu.dev/) &nbsp;&middot;&nbsp;
-> GitHub [@jeffreythecoder](https://github.com/JeffreytheCoder/JeffreytheCoder) &nbsp;&middot;&nbsp;
-> Twitter [@jeffreyzepengyu](https://twitter.com/jeffreyzepengyu)
 
